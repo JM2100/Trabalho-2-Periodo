@@ -1,0 +1,171 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    text-decoration: none; 
+    font-family:poppins; 
+    font-size: 1.3rem; 
+} 
+header{ 
+    height: 60px; 
+    background-color:#2f2f8349; 
+    
+ 
+} 
+body{ 
+    background-image:url(https://external-preview.redd.it/w9fGNl_V0iBmgHc_RP_jnK_j89pytNEbfnFyXMThqKE.jpg?width=640&crop=smart&auto=webp&s=f928ce5b0bada3ddb338b01fec2089e9892f22bd); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;    
+} 
+h1{ 
+text-align: center ; 
+color: #ffffff; 
+padding: 2%; 
+} 
+nav{ 
+    height: 60px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-evenly;   
+    margin-left: 50px; 
+    
+} 
+nav .link{ 
+    color: white; 
+    text-decoration: underline; 
+    transition: all 0.5s; 
+     
+} 
+nav .link:hover{ 
+    transform: scale(1.2); 
+} 
+textarea{ 
+    width: 500px; 
+    height: 100px; 
+    font-size: medium; 
+} 
+ 
+main{ 
+    height: calc(100vh - 83px); 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    
+} 
+ 
+.login{ 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    height: 350px; 
+    width: 300px; 
+    border-radius: 10px; 
+    background: #19197078; 
+    
+} 
+ 
+.login input{ 
+    width: 250px; 
+    border-radius: 10px; 
+    border: none; 
+    text-align: center; 
+} 
+.cadastro{ 
+    display: flex; 
+    flex-direction:column ; 
+    justify-content: center; 
+    align-items:center; 
+    gap: 10px; 
+    height: 490px; 
+    width: 550px; 
+    border-radius: 10px; 
+    background: #19197078; 
+    padding: 5%; 
+} 
+p{ 
+    font-size:large ; 
+} 
+.cadastro input{ 
+    width: 250px; 
+    height: 30px; 
+    border-radius: 10px; 
+    border: none; 
+    text-align:center; 
+    margin: 1%; 
+} 
+ 
+.anco{ 
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    text-decoration: underline;
+    transition: all 0.5s;
+} 
+.zapzap{ 
+    color: #ffffff; 
+} 
+.anco:hover{ 
+    transform: scale(1.2); 
+} 
+ 
+.nome{ 
+    display: flex; 
+    margin-right: 68px; 
+} 
+.restoca{ 
+    display:flex; 
+    margin-right: 68px;     
+} 
+ 
+.aviso{ 
+    color: #ffffff; 
+    font-size: 0.7rem; 
+    height: 20px; 
+} 
+#botao{ 
+    background: #191970; 
+    color: white; 
+    transition: all 0.3s; 
+} 
+#botao:hover{ 
+    background: white; 
+    color: #191970; 
+    cursor: pointer; 
+} 
+button{ 
+    width: 250px; 
+    background: #191970; 
+    color: white; 
+    transition: all 0.3s; 
+    border-radius: 10px; 
+} 
+img{ 
+    width: 20px; 
+} 
+label{ 
+    color: #ffffff; 
+} 
+.campo{ 
+    text-align: center; 
+} 
+footer{ 
+    font-size:0.3rem ; 
+    background-color:#191970; 
+    font-family: 'Times New Roman', Times, serif; 
+    color: #ffffff; 
+    text-align: center; 
+    justify-content: end; 
+} 
+footer p{ 
+    font-size: 0.9rem 
+} 
+footer p img{ 
+    height:15px; 
+    width: 15px; 
+} 
+.menorfooder{ 
+    font-size:small 
+}

@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+h1{
+color: #ffffff;
+text-align:center ;
+padding: 2%;
+}
+header{
+    height: 60px;
+    background-color:#2f2f8349;
+    text-align: center;
+    font-size: large;
+    font-size: 1.5rem;
+
+}
+.cabeça{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;  
+    margin-left: 50px;
+}
+nav .link{ 
+    color: white; 
+    text-decoration: underline; 
+    transition: all 0.5s; 
+     
+} 
+nav .link:hover{ 
+    transform: scale(1.2); 
+} 
+main{
+    height: calc(90vh - 83px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ flex-direction: column;   
+}
+
+.sessao-integrantes{
+    min-width: 250px;
+    min-height: 250px;
+    height: 310px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    transition: 1s;
+    margin-bottom: 5px;
+    padding-bottom: 10%;
+    
+}
+
+.sessao-integrantes2{
+    min-width: 250px;
+    min-height: 250px;
+    height: 310px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    transition: 1s;
+    margin-top: 100px;
+    padding: 140px;
+}
+
+.menu-container h2{
+        margin: 20px 20px 20px 20px;
+        overflow: hidden;
+        color:  rgb(31, 11, 209);
+        font-size: 17px;
+        text-align: center;
+}
+
+.menu-container p{
+    color: rgb(8, 21, 66);
+    padding:  10px;
+    overflow: hidden;
+    transition: all 0.7s;
+    font-size: 12px;
+}
+
+img{
+    width: 170px;
+    
+    margin-top: 30px;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(https://external-preview.redd.it/w9fGNl_V0iBmgHc_RP_jnK_j89pytNEbfnFyXMThqKE.jpg?width=640&crop=smart&auto=webp&s=f928ce5b0bada3ddb338b01fec2089e9892f22bd);
+    display: flex; 
+    flex-direction: column;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center; background-attachment: fixed;
+    
+ 
+    
+}
+
+.menu-container {
+    width: 250px;
+    height: 320px;
+    transition: height 0.5s ease;
+    transition: width 0.5s ease;
+    background-color: rgb(255, 255, 255);
+    gap: 10px;
+    border: 1px solid white;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0px auto;
+    margin-top: 30px;
+    
+}
+
+.menu-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.link {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.link:hover {
+    color: #007BFF;
+}
+footer{ 
+    font-size:0.3rem ; 
+    background-color:#191970; 
+    font-family: 'Times New Roman', Times, serif; 
+    color: #ffffff; 
+    text-align: center; 
+    justify-content: end;
+    
+} 
+footer p{ 
+    font-size: 0.9rem 
+} 
+footer p img{ 
+    height:15px; 
+    width: 15px; 
+} 
+.menorfooder{ 
+    font-size:small 
+}
+
+/*.container {
+    min-height: 20vh; 
+  }*/
+  .containera {
+    min-height: 100vh; 
+  }

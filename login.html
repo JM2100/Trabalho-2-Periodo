@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylel.css">
+    <title>Login</title>
+</head>
+<body>
+    <header> 
+        <nav>
+            <a href="index.html" class="link">Home</a>
+            <a href="galeria.html" class="link">Galeria</a>
+            <a href="Cadastro.html" class="link">Login/Cadastro</a>
+        </nav>
+    </header>
+                
+    <main>
+        <div class="login">
+            <h1 class="login_h1">LOGIN</h1>
+            
+            <input type="text" id="login" placeholder="Login" onkeyup="avisoNomeF()">
+            
+            <p id="avisoNome" class="aviso"></p>
+            
+            <input type="password" id="senhal" placeholder="Senha" onkeyup="avisoSenhaF()">
+            
+            <p id="avisoSenha" class="aviso"></p>
+            
+            <a href="Cadastro.html" class="anco" style="margin-left: 9px;">Não tenho cadastro!</a>
+            
+            <button type="button" id="botao" class="botao" onclick="logar(); return false">Entrar</button>
+        </div>
+    </main>
+    <href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">    
+    <footer>
+        <p class="imgf"><img src="https://drive.google.com/thumbnail?id=1aHuiadSwv0EDnfGhZ22YdeWV3fMmgTr9" alt="">Telefone: (81) 9 7107-7286</p>
+        <p class="imgf"><img src="https://drive.google.com/thumbnail?id=13bnpqbTPH5rNpSzw_dxMaroWi01uCqwS" alt="">E-mail: vitorrsilveriomartins@gmail.com</p>
+        <p class="menorfooder">Pagina 2024 &copy;</p>
+    </footer>
+                
+    <script>
+        function avisoNomeF(){
+    let login = document.getElementById('login').value
+    if(login.trim().length>2){
+        document.getElementById('avisoNome').innerHTML=""
+    }else{
+        document.getElementById('avisoNome').innerHTML="Mín. de 3 caracteres"
+    }
+}
+function avisoNomeF() {
+    let login = document.getElementById('login').value;
+    if (login.trim().length > 2) {
+        document.getElementById('avisoNome').innerHTML = "";
+    } else {
+        document.getElementById('avisoNome').innerHTML = "Mín. de 3 caracteres";
+    }
+}
+
+function avisoSenhaF() {
+    let senhal = document.getElementById('senhal').value;
+    if (senhal.trim().length > 7) {
+        document.getElementById('avisoSenha').innerHTML = "";
+    } else {
+        document.getElementById('avisoSenha').innerHTML = "Mín. de 8 caracteres";
+    }
+}
+
+function logar() {
+    var login = document.getElementById('login').value;
+    var senhal = document.getElementById('senhal').value;
+    
+    if (login == "vitor" && senhal == "12345678") {
+        location.href = "galeria.html";
+    } else if (login != "vitor" && senhal == "12345678") {
+        document.getElementById('avisoNome').innerHTML = "Login incorreto";
+    } else if (login == "vitor" && senhal != "12345678") {
+        document.getElementById('avisoSenha').innerHTML = "Senha incorreta"; 
+    }else{
+        document.getElementById('avisoSenha').innerHTML = "Usuario não cadastredo";
+    }
+}
+    </script>
+
+    </body>
+ </html>
